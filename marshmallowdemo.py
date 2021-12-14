@@ -25,8 +25,8 @@ if __name__=='__main__':
     python_course=Course(
         name='Full Stack Python',
         faculty='Nikhil',
-        website='https://python.direct',
-        email='qtdevops@gmail.com')
+        website='https://python.link',
+        email='pythondt@gmail.com')
 
     schema = CourseSchema()
     result=schema.dump(python_course)
